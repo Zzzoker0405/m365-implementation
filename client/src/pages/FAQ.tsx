@@ -28,8 +28,7 @@ export default function FAQ() {
   );
 
   const contacts = [
-    { name: 'Boris Cho (卓家全)', title: '永續辦公室', email: 'x0102@cvilux.com' },
-    { name: 'Taco Chang (張祥育)', title: '永續辦公室', email: 'x0103@cvilux.com' },
+    { name: 'Boris Cho (卓家全)', title: '永續辦公室', email: 'en0865@cvilux.com' },
     { name: 'Jerry Chang (張哲禎)', title: '永續辦公室', email: 'Jerry.Chang@cvilux.com' },
   ];
 
@@ -79,7 +78,7 @@ export default function FAQ() {
           <h2 className="text-2xl font-bold text-foreground mb-8">有問題可以聯繫</h2>
 
           <Card className="p-8 border-2 border-border/60">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {contacts.map((contact) => (
                 <div key={contact.email} className="flex items-center gap-4 p-4 rounded-lg bg-muted/50 border border-border/50 hover:border-primary/50 hover:bg-muted/100 transition-colors">
                   <div className="p-2.5 rounded-full bg-primary/10">
